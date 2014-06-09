@@ -73,11 +73,11 @@ All you need to do is add the following in the `create()` method just before `su
 add(new FlxText(0, 0, 100, "Hello World!")); 
 ```
 
-Save the file and return to your command line window. Now we can compile the project.
+Save the file. Now we can compile the project.
 
-Without running the [lime setup](/documentation/install-openfl) commands you can compile to Flash and Neko out of the box.
+Without running the [lime setup](/documentation/install-openfl) commands you can compile to Flash and Neko out of the box. If you are using SublimeText, you can compile your project by pressing ctrl + enter. If you are using FlashDevelop, go to "Project" and select "Build" or press F8.
 
-Test your project from the following commands:
+Return to the command line window and make sure you have navigated to your HelloWorld folder. Then test your project from the following commands:
 
 ``` bash
 lime test flash
